@@ -6,31 +6,32 @@
   <meta name="theme-color" content="#641321">
   <meta name="description" content="Сайт о шрифте PT Mono. Крючкова Анна, Б26ДЗ10.">
   <title>PT Mono</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#history">К содержанию</a>
-  <input class="motion-toggle" type="checkbox" id="motion">
-  <label class="motion-label" for="motion">Без анимации</label>
-
   <div class="site">
-    <header class="hero" id="top">
+    <header class="header" id="top">
       <div class="wrap">
         <p class="eyebrow">Шрифт для заполнения</p>
-        <h1 class="title-cells" aria-label="PT Mono">
-          <span style="--i:0">P</span>
-          <span style="--i:1">T</span>
-          <span style="--i:2">&nbsp;</span>
-          <span style="--i:3">M</span>
-          <span style="--i:4">O</span>
-          <span style="--i:5">N</span>
-          <span style="--i:6">O</span>
+        <h1 class="title" aria-label="PT Mono">
+          <img class="decoration" src="images/title-grid.svg" alt="">
+          <span>P</span>
+          <span>T</span>
+          <span>&nbsp;</span>
+          <span>M</span>
+          <span>O</span>
+          <span>N</span>
+          <span>O</span>
         </h1>
         <div class="hero-bottom">
           <p class="hero-copy">АНКЕТЫ,<br>ТАБЛИЦЫ<br>И БЛАНКИ</p>
           <div class="identity-stack">
-            <div class="id-card">
+            <div class="card">
+              <img class="decoration" src="images/id-card.svg" alt="">
               <div class="paper-bar">PT MONO / REGULAR</div>
               <div class="id-body">
                 <span class="portrait">a</span>
@@ -42,9 +43,9 @@
                   <dt class="code">U+0061</dt>
                 </dl>
               </div>
-              <i class="clip" aria-hidden="true"></i>
+              <img class="clip" src="images/paperclip.svg" alt="">
             </div>
-            <span class="stamp">ДОПУЩЕН К НАБОРУ</span>
+            <span class="stamp"><img class="decoration" src="images/stamp.svg" alt=""><span>ДОПУЩЕН К НАБОРУ</span></span>
           </div>
         </div>
         <div class="hero-meta">
@@ -54,7 +55,6 @@
         </div>
       </div>
     </header>
-
     <main>
       <section class="history wrap section" id="history" aria-labelledby="history-title">
         <h2 id="history-title">АНКЕТА ШРИФТА</h2>
@@ -83,35 +83,35 @@
           </div>
         </dl>
       </section>
-
       <section class="width-section wrap section" aria-labelledby="width-title">
         <h2 id="width-title">КАЖДОЙ БУКВЕ — ОДНА КЛЕТКА</h2>
         <div class="width-table">
+          <img class="decoration" src="images/width-table.svg" alt="">
           <div class="width-item" tabindex="0">
             <div class="specimen">
-              <span style="--i:0">W</span>
-              <i class="measure" aria-hidden="true"></i>
+              <span>W</span>
+              <img class="measure" src="images/measure.svg" alt="">
             </div>
           </div>
           <div class="width-item" tabindex="0">
             <div class="specimen">
-              <span style="--i:1">i</span>
-              <i class="measure" aria-hidden="true"></i>
+              <span>i</span>
+              <img class="measure" src="images/measure-light.svg" alt="">
             </div>
           </div>
           <div class="width-item" tabindex="0">
             <div class="specimen">
-              <span style="--i:2">1</span>
-              <i class="measure" aria-hidden="true"></i>
+              <span>1</span>
+              <img class="measure" src="images/measure.svg" alt="">
             </div>
           </div>
         </div>
       </section>
-
       <section class="recognition section" aria-labelledby="recognition-title">
         <div class="wrap">
           <h2 id="recognition-title">НЕ ПЕРЕПУТАЙТЕ</h2>
           <div class="recognition-table">
+            <img class="decoration" src="images/recognition.svg" alt="">
             <div class="recognition-row" tabindex="0">
               <span class="letter-pair">I l 1</span>
               <p>Буквы I и l.<br>Цифра 1.</p>
@@ -127,57 +127,32 @@
           </div>
           <label class="check-label">
             <input type="checkbox" checked>
-            <span class="check-box" aria-hidden="true"></span>
+            <span class="check-box"><img src="images/check-box-light.svg" alt=""><img class="check-mark" src="images/check-mark-light.svg" alt=""></span>
             <span>Номер прочитан верно</span>
           </label>
         </div>
       </section>
-
       <section class="registry wrap section" aria-labelledby="registry-title">
         <h2 id="registry-title">ЗНАКОВЫЙ СОСТАВ</h2>
         <div class="alphabet">
           <h3>Кириллица</h3>
-          <div class="glyph-line">
-            <span>А</span><span>Б</span><span>В</span><span>Г</span><span>Д</span><span>Е</span><span>Ё</span><span>Ж</span><span>З</span><span>И</span><span>Й</span><span>К</span><span>Л</span><span>М</span><span>Н</span><span>О</span><span>П</span><span>Р</span><span>С</span><span>Т</span><span>У</span><span>Ф</span><span>Х</span><span>Ц</span><span>Ч</span><span>Ш</span><span>Щ</span><span>Ъ</span><span>Ы</span><span>Ь</span><span>Э</span><span>Ю</span><span>Я</span>
-          </div>
-          <div class="glyph-line">
-            <span>а</span><span>б</span><span>в</span><span>г</span><span>д</span><span>е</span><span>ё</span><span>ж</span><span>з</span><span>и</span><span>й</span><span>к</span><span>л</span><span>м</span><span>н</span><span>о</span><span>п</span><span>р</span><span>с</span><span>т</span><span>у</span><span>ф</span><span>х</span><span>ц</span><span>ч</span><span>ш</span><span>щ</span><span>ъ</span><span>ы</span><span>ь</span><span>э</span><span>ю</span><span>я</span>
-          </div>
+          <p class="glyph-line">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</p>
+          <p class="glyph-line">абвгдеёжзийклмнопрстуфхцчшщъыьэюя</p>
         </div>
         <div class="alphabet latin">
           <h3>Латиница</h3>
-          <div class="glyph-line">
-            <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span><span>M</span><span>N</span><span>O</span><span>P</span><span>Q</span><span>R</span><span>S</span><span>T</span><span>U</span><span>V</span><span>W</span><span>X</span><span>Y</span><span>Z</span>
-          </div>
-          <div class="glyph-line">
-            <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span><span>k</span><span>l</span><span>m</span><span>n</span><span>o</span><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span><span>z</span>
-          </div>
+          <p class="glyph-line">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p class="glyph-line">abcdefghijklmnopqrstuvwxyz</p>
         </div>
         <div class="alphabet">
           <h3>Цифры и знаки</h3>
           <div class="numbers">
-            <span class="number-sequence" aria-label="1234567890">
-              <span aria-hidden="true" style="--n:0">1</span>
-              <span aria-hidden="true" style="--n:1">2</span>
-              <span aria-hidden="true" style="--n:2">3</span>
-              <span aria-hidden="true" style="--n:3">4</span>
-              <span aria-hidden="true" style="--n:4">5</span>
-              <span aria-hidden="true" style="--n:5">6</span>
-              <span aria-hidden="true" style="--n:6">7</span>
-              <span aria-hidden="true" style="--n:7">8</span>
-              <span aria-hidden="true" style="--n:8">9</span>
-              <span aria-hidden="true" style="--n:9">0</span>
-            </span>
-            <span class="symbol-sequence" aria-label="№ % &amp; @ ±">
-              <span aria-hidden="true" style="--n:0">№</span>
-              <span aria-hidden="true" style="--n:1">%</span>
-              <span aria-hidden="true" style="--n:2">&amp;</span>
-              <span aria-hidden="true" style="--n:3">@</span>
-              <span aria-hidden="true" style="--n:4">±</span>
-            </span>
+            <span>1234567890</span>
+            <span class="symbols">№ % &amp; @ ±</span>
           </div>
         </div>
         <div class="glyph-count">
+          <img class="decoration" src="images/glyph-count.svg" alt="">
           <span>808</span>
           <p>ГЛИФОВ В ФАЙЛЕ REGULAR</p>
         </div>
@@ -187,25 +162,26 @@
           <p><span>FR / ОБРАЗЕЦ НАБОРА</span>Élève, cœur, façade.</p>
         </div>
       </section>
-
       <section class="documents wrap section" aria-labelledby="documents-title">
         <h2 id="documents-title">ЗАПОЛНИТЕ ПО ФОРМЕ</h2>
         <div class="documents-grid">
           <div class="application paper">
+            <img class="decoration" src="images/application.svg" alt="">
             <div class="paper-bar">ЗАЯВЛЕНИЕ</div>
-            <i class="clip" aria-hidden="true"></i>
+            <img class="clip" src="images/paperclip.svg" alt="">
             <label for="surname">ФАМИЛИЯ</label>
-            <input id="surname" class="surname" value="КРЮЧКОВА" maxlength="8" autocomplete="family-name" spellcheck="false">
+            <div class="surname-field"><img class="decoration" src="images/surname-cells.svg" alt=""><input id="surname" class="surname" value="КРЮЧКОВА" maxlength="8" autocomplete="family-name" spellcheck="false"></div>
             <label for="name">ИМЯ</label>
             <input id="name" class="given-name" value="Анна" maxlength="18" autocomplete="given-name">
             <label class="check-label accepted">
               <input type="checkbox">
-              <span class="check-box" aria-hidden="true"></span>
+              <span class="check-box"><img src="images/check-box.svg" alt=""><img class="check-mark" src="images/check-mark.svg" alt=""></span>
               <span>Принято</span>
             </label>
-            <span class="accepted-stamp" aria-hidden="true">ЗАРЕГИСТРИРОВАНО</span>
+            <span class="accepted-stamp"><img class="decoration" src="images/accepted-stamp.svg" alt=""><span>ЗАРЕГИСТРИРОВАНО</span></span>
           </div>
           <div class="invoice paper">
+            <img class="decoration" src="images/invoice.svg" alt="">
             <div class="paper-bar">ВЕДОМОСТЬ</div>
             <table>
               <caption class="sr-only">Расходы на канцелярию, в рублях</caption>
@@ -234,12 +210,11 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="wrap">
         <a class="download" href="https://fonts.google.com/specimen/PT+Mono" target="_blank" rel="noopener noreferrer">
           PT MONO НА GOOGLE FONTS
-          <span class="download-arrow" aria-hidden="true"></span>
+          <img class="download-arrow" src="images/arrow.svg" alt="">
         </a>
         <p class="eyebrow">ПЕРЕЙТИ И СКАЧАТЬ / REGULAR</p>
         <div class="footer-bottom">
