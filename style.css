@@ -221,12 +221,12 @@ h2 {
   width: 24px;
   height: 64px;
   background: url("assets/paperclip.svg") center / contain no-repeat;
-  transform: rotate(-5deg);
+  transform: rotate(23deg);
   pointer-events: none;
 }
 
 .application .clip {
-  transform: rotate(1deg);
+  transform: rotate(23deg);
 }
 
 .stamp {
