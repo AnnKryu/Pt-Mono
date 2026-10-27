@@ -14,17 +14,12 @@
   --space: clamp(64px, 6.25vw, 120px);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 32px;
 }
 
 body {
-  margin: 0;
   background: var(--paper);
   color: var(--ink);
   font-family: "PT Mono", monospace;
@@ -32,10 +27,6 @@ body {
   font-weight: 400;
   font-synthesis: none;
   line-height: 1.35;
-}
-
-h1, h2, h3, p, dd {
-  margin: 0;
 }
 
 h1, h2, h3, th {
